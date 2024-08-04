@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart-Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <h1>Add-to-Cart</h1>
+    <div class="container">
+        <div class="section1">
+            <h2>Product</h2>
+            <div class="product">
+                <p class="produName">Product1</p>
+                <p class="produPrice">100</p>
+                <div id="0" class="quentity">
+                    <button id="m1" class="minus">-</button>
+                    <input type="number" value="0" min="1" max="10">
+                    <button id="p1" class="plus">+</button>
+                </div>
+            </div>
+            <div class="product">
+                <p class="produName">Product2</p>
+                <p class="produPrice">200</p>
+                <div id="1" class="quentity">
+                    <button id="m2" class="minus">-</button>
+                    <input type="number" value="0" min="1" max="10">
+                    <button id="p2" class="plus">+</button>
+                </div>
+            </div>
+            <div class="product">
+                <p class="produName">Product3</p>
+                <p class="produPrice">300</p>
+                <div id="2" class="quentity">
+                    <button id="m3" class="minus">-</button>
+                    <input type="number" value="0" min="1" max="10">
+                    <button id="p3" class="plus">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section2">
+            <h2>Cart</h2>
+            <div class="produList">
+                
+            </div>
+            <div class="total">
+                <p id="totalPrice">Your Cart is Empty</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
